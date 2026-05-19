@@ -8,7 +8,7 @@ This is a hobby / teaching project. The contract is intentionally minimal: a fix
 
 | Network        | Chain ID | Contract address              | Explorer |
 | -------------- | -------- | ----------------------------- | -------- |
-| Base Sepolia   | 84532    | _TBD — fill in after deploy_  | https://sepolia.basescan.org/address/TBD |
+| Base Sepolia   | 84532    | `0x5b02DE1D7D3E18b9892EeB3BDf7A6DD0D15549C5` | [view](https://sepolia.basescan.org/address/0x5b02DE1D7D3E18b9892EeB3BDf7A6DD0D15549C5) |
 | Base mainnet   | 8453     | _TBD — fill in after deploy_  | https://basescan.org/address/TBD |
 
 ## Project layout
@@ -29,7 +29,7 @@ foundry.toml           — Foundry config, including base_sepolia + base_mainnet
    foundryup
    ```
 2. **A deploy wallet** with some testnet ETH on Base Sepolia. Get free Base Sepolia ETH from a faucet such as the [Coinbase Wallet Faucet](https://www.coinbase.com/faucets/base-ethereum-sepolia-faucet) or [Alchemy Sepolia Faucet](https://www.alchemy.com/faucets/base-sepolia) (some faucets give you ETH Sepolia which you then bridge to Base Sepolia).
-3. **A Basescan API key** (free) for contract verification — https://basescan.org/myapikey
+3. **An Etherscan API key** (free) for contract verification. Sign up at https://etherscan.io and create a key in your API dashboard — Etherscan unified verification for Base, Polygon, Arbitrum, etc. under a single key (Etherscan API V2).
 
 ## Setup
 
